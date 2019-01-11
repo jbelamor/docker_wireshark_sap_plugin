@@ -9,7 +9,8 @@ The folder `_shared_data` is the voluma shared with the container to store the p
 ```
 git clone https://github.com/jbelamor/docker_wiresark_sap_plugin.git
 cd docker_wiresark_sap_plugin
-chmod +x *.sh && ./build.sh && ./wireshark.sh```
+chmod +x *.sh && ./build.sh && ./wireshark.sh
+```
 
 ### Using DockerHub
 ```
