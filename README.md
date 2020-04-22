@@ -14,7 +14,7 @@ chmod +x *.sh && ./build.sh && ./wireshark.sh
 
 ### Using DockerHub
 ```
-docker pull joelbelena/wireshark_sap_plugin
+docker pull jbelamor/wireshark_sap_plugin
 mkdir _shared_data
 docker run -d --net=host --privileged -v `pwd`/_shared_data/:/mnt/shared_folder -e XAUTHORITY=$HOME/.Xauthority --env=DISPLAY --env=QT_X11_NO_MITSHM=1 --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --name wireshark_sap joelbelena/wireshark_sap_plugin:latest
 ```
